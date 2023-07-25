@@ -1,0 +1,35 @@
+table {
+    border: 1px;
+    background: linear-gradient(to bottom, #84EF8E 0%, #C8F3CC 100%);
+    border-radius: 15px 15px 0px 0px;
+    border-collapse: collapse;
+}
+th{
+    color: white;
+    background: green;
+    border: solid white;
+    border-bottom-width: medium;
+    border-bottom-color: green ;
+}
+td{
+    font-family: "Times New Roman",Times,serif;
+    border: solid white;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    border: 4px dashed black;
+    padding-top: 5%;
+    padding-bottom: 5%
+}
+
+.card-body{
+    background-color: linear-gradient(to bottom, #84EF8E 0%, #C8F3CC 100%);
+    border: 1px solid black;
+}
